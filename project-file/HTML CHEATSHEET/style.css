@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 72px;
+    margin-bottom: 15px;
+}
+
+.content {
+    font-family: 'Potta One', cursive;
+}
+
+.container {
+    /* background-color: red; */
+    width: 60vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.logo {
+    padding: 0 13px;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+
+}
+
+h3 {
+    font-weight: 900;
+    text-align: center;
+    border-bottom: #272822 2px solid;
+    border-top: #272822 2px solid;
+
+}
+
+::-webkit-scrollbar-button {
+    background: #272822;
+}
+
+::-webkit-scrollbar {
+    background: #272822;
+    width: 8px;
+    border-radius: 10px;
+}
+
+/* Style buttons */
+.btn a {
+    /* background-color: DodgerBlue; */
+    background-color: #272822 !important ;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: white 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Potta One', cursive;
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover a{
+    background-color: RoyalBlue !important;
+    color: white;
+}
+
+/* a{
+    color: white;
+} */

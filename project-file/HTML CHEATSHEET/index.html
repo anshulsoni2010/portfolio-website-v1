@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CHEETSHEET by ANHSUL SONI
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./prism/prism.css">
+    <script src="./prism/prism.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <span class="logo"><img src="clone.jpg"></span>
+
+        <div class="content center">
+            This HTML CheetSheet is For You!
+
+
+        </div>
+    </nav>
+
+    <center><button class="btn"><a href="./cheetsheet/htmlcheatsheet.pdf" download><i class="fa fa-download">
+                </i>
+                Download </a></button></center>
+
+
+
+    <div class="container">
+
+        <ol>
+
+            <li>HTML Boilerplate
+                <pre class="language-html"><code>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>Document&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;!--Body content-->                       
+&lt;/body>
+&lt;/html>
+</code> </pre>
+
+            </li>
+
+            <h3>Basic Tags👇</h3>
+
+            <li>Html tag: Creates an HTML document
+                <pre class="language-html"><code>&lt;html>&lt;/html></code></pre>
+            </li>
+
+            <li>Head tag: Sets off the title & other info that isn't displayed
+                <pre class="language-html"><code>&lt;head>&lt;/head></code></pre>
+            </li>
+
+            <li>Body tag: Sets off the visible portion of the document
+                <pre class="language-html"><code>&lt;body>&lt;/body></code></pre>
+            </li>
+
+            <li>Title tag: Puts name of the document in the title bar; when bookmarking pages, this is what is
+                bookmarked
+                <pre class="language-html"><code>&lt;title>&lt;/title></code></pre>
+            </li>
+
+            <h3>Body attributes (only used in email newsletters)👇</h3>
+
+            <li>Body bgcolor: Sets background color, using name or hex value
+                <pre class="language-html"><code>&lt;body bgcolor=?></code></pre>
+            </li>
+
+            <li>Body text: Sets text color, using name or hex value
+                <pre class="language-html"><code>&lt;body text=?></code></pre>
+            </li>
+
+            <li>Body link: Sets color of links, using name or hex value
+                <pre class="language-html"><code>&lt;body link=?></code></pre>
+            </li>
+
+            <li>Body vlink:Sets color of visited links, using name or hex value
+                <pre class="language-html"><code>&lt;body vlink=?></code></pre>
+            </li>
+
+            <li>Body alink: Sets color of active links (while mouse-clicking)
+                <pre class="language-html"><code>&lt;body alink=?></code></pre>
+            </li>
+
+            <h3>FORMATTING 👇</h3>
+
+            <li>Paragraph tag : Creates a new Paragraph
+                <pre class="language-html"><code>&lt;p>//contains paragraph&lt;/p></code></pre>
+            </li>
+
+            <li>Br tag: A Inserts a line break
+                <pre class="language-html"><code>&lt;br>&lt;/br>
+</code></pre>
+            </li>
+
+            <li>Blockquote tag: Puts content in a quote - indents text from both sides
+                <pre class=language-html><code>&lt;blockquote>&lt;/blockquote></code></pre>
+            </li>
+
+            <li>Div tag: Used to format block content with CSS
+                <pre class="language-html"><code>&lt;div>&lt;/div></code></pre>
+
+            </li>
+
+            <li>Span tag: Used to format inline content with CSS
+                <pre class="language-html"><code>&lt;span>&lt;/span></code></pre>
+
+            </li>
+
+            <h3>LISTS 👇</h3>
+
+            <li>Ul tag: Creates an unordered list
+                <pre class="language-html"><code>&lt;ul>&lt;/ul></code></pre>
+            </li>
+
+            <li>Ol tag: Creates an ordered list (start=xx,
+                where xx is a counting number)
+                <pre class="language-html"><code>&lt;ol start=?>&lt;/ol></code></pre>
+            </li>
+
+            <li>Li tag: Encompasses each list item
+                <pre class="language-html"><code>&lt;li>&lt;/li></code></pre>
+            </li>
+
+            <li>Dl tag: Creates a definition list
+                <pre class="language-html"><code>&lt;dl>&lt;/dl></code></pre>
+            </li>
+
+            <li>Dt tag: Precedes eachdefintion term
+                <pre class="language-html"><code>&lt;dt>&lt;/dt></code></pre>
+            </li>
+
+            <li>Dd tag: Precedes eachdefintion
+                <pre class="language-html"><code>&lt;dd>&lt;/dd></code></pre>
+            </li>
+
+            <h3>Text Tags👇</h3>
+
+
+            <li>Pre tag: Creates preformatted text
+                <pre class="language-html"><code>&lt;pre>&lt;/pre></code></pre>
+            </li>
+
+            <li>Heading tags: Creates headlines -- H1=largest, H6=smallest
+                <pre class="language-html"><code>&lt;h1>&lt;/h1></code></pre>
+                <pre class="language-html"><code>&lt;h2>&lt;/h2></code></pre>
+                <pre class="language-html"><code>&lt;h3>&lt;/h3></code></pre>
+                <pre class="language-html"><code>&lt;h4>&lt;/h4></code></pre>
+                <pre class="language-html"><code>&lt;h5>&lt;/h5></code></pre>
+                <pre class="language-html"><code>&lt;h6>&lt;/h6></code></pre>
+            </li>
+
+            <li>B tag: Creates bold text (should use <b>&lt;strong></b> instead)
+                <pre class="language-html"><code>&lt;b>&lt;/b></code></pre>
+            </li>
+
+            <li>I tag: Creates italicized text (should use <b>&lt;em></b> instead)
+                <pre class="language-html"><code>&lt;i>&lt;/i></code></pre>
+            </li>
+
+            <li>Tt tag: Creates typewriter-style text
+                <pre class="language-html"><code>&lt;tt>&lt;/tt></code></pre>
+            </li>
+
+            <li>code tag: Used to define source code, usually monospace
+                <pre class="language-html"><code>&lt;code>&lt;/code></code></pre>
+            </li>
+
+            <li>Cite tag: Creates a citation, usually processed in italics
+                <pre class="language-html"><code>&lt;cite>&lt;/cite></code></pre>
+            </li>
+
+            <li>Address tag: Creates address section, usually processed in italics
+                <pre class="language-html"><code>&lt;address>&lt;/address></code></pre>
+            </li>
+
+            <li>Em tag: Emphasizes a word (usually processed in italics)
+                <pre class="language-html"><code>&lt;em>&lt;/em></code></pre>
+            </li>
+
+            <li>Strong tag: Emphasizes a word (usually processed in bold)
+                <pre class="language-html"><code>&lt;strong>&lt;/strong></code></pre>
+            </li>
+
+            <li>Font size tag: Sets size of font - 1 to 7 (should use CSS instead)
+                <pre class="language-html"><code>&lt;font size=?> &lt;/font> 
+</code></pre>
+            </li>
+
+            <li>Font color tag: Sets font color (should use CSS instead)
+                <pre class="language-html"><code>&lt;font color=?> &lt;/font>
+</code></pre>
+            </li>
+
+            <li>Font face tag: Defines the font used (should use CSS instead)
+                <pre class="language-html"><code>&lt;font face=?> &lt;/font>            </code></pre>
+            </li>
+
+            <h3>Graphical elements👇</h3>
+
+            <li>Hr tag: Inserts a horizontal rule
+                <pre class="language-html"><code>&lt;hr></code></pre>
+            </li>
+
+            <li>Hr size tag: Sets size (height) of horizontal rule
+                <pre class="language-html"><code>&lt;hr size=?></code></pre>
+            </li>
+
+            <li>Hr width tag: Sets width of rule (as a % or absolute pixel length)
+                <pre class="language-html"><code>&lt;hr width=?></code></pre>
+            </li>
+
+            <li>Hr noshade tag: Creates a horizontal rule without a shadow
+                <pre class="language-html"><code>&lt;hr noshade></code></pre>
+            </li>
+
+            <li>Image tag: Adds image; it is a separate file located at the URL
+
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->"/></code></pre>
+
+            </li>
+
+            <li>Image tag with align attribute: Aligns image left/right/center/bottom/top/middle (use CSS)
+                <pre class="language-html"><code>&lt;img src="&lt;!-- Url of the image-->" align=?></code></pre>
+            </li>
+
+            <li>Image tag with border attribute: Sets size of border surrounding image (use CSS)
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image" border=?></code></pre>
+            </li>
+
+            <li>Image tag with height attribute: Sets height of image, in pixels
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->" height=?>
+</code></pre>
+            </li>
+
+            <li>Image tag with width attribute: Sets width of image, in pixels
+                <pre class="language-html"><code>&lt;img src="&lt;!-- url of the image-->" width=?></code></pre>
+            </li>
+
+            <li>Image tag with alt attribute: Sets the alternate text for browsers that can't
+                process images (required by the ADA)
+                <pre class="language-html"><code>&lt;img src="&lt;!--url of the image-->" alt=?></code></pre>
+            </li>
+
+        </ol>
+
+    </div>
+
+</body>
+
+</html>
